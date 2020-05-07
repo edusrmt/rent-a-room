@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -27,4 +27,56 @@ header h1 {
 
 header h1 span {
     color: #969696;
+}
+
+main {
+    padding: 5vh 5vw;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#room-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 23.5%;
+    margin: 0 2% 2% 0;
+
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgba(150,150,150,0.5);
+}
+
+.card:nth-child(4n) {
+    margin-right: 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card .card-body {
+    padding: 1rem;
+}
+
+.card-body .type {
+    color: #969696;
+    font-size: .9rem;
+}
+
+.card-body h3 {
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.card-body .price {
+    font-weight: bold;
 }
